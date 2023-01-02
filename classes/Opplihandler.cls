@@ -7,6 +7,10 @@ public class Opplihandler {
           Asset assObj = new Asset();
            assObj.Name = oli.Opportunity.Account.Name+' OpportunityLineItem';
           assObj.AccountId = oli.Opportunity.AccountId;
+         
+            
+            
+            
           assetToCreate.add(assObj);
         }
         insert assettocreate;
