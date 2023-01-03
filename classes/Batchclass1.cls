@@ -4,6 +4,7 @@ public class Batchclass1 {
     public static void stetuptestdate(){
          Test.startTest();
      List<Account> accnew=new List< account>();
+     List<opportunity>opp=new List<opportunity>();
         For(integer i=0; i<=200; i++){
            Account acc=new Account();
            acc.Name='test'+i;
